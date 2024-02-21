@@ -41,7 +41,7 @@ function Dashboard() {
             </div></Link> 
             <Link to="/students"><div className="border-b-8 text-center border-yellow-300 w-[300px] h-[200px] bg-green-300">
                 <i class="fa-solid text-4xl text-cyan-400 mt-5 fa-chalkboard-user"></i>
-                <h1 className="text-5xl pt-5 "> {allstudents} </h1>
+                <h1 className="text-5xl pt-5 "> {allstudents > 0 ? allstudents : 0} </h1>
                 <h1 className="text-4xl">Total Student</h1>
             </div> </Link> 
             <Link to="/teachers"><div className="border-b-8 text-center border-yellow-300 w-[300px] h-[200px] bg-gray-400">
